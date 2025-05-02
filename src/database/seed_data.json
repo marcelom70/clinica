@@ -1,0 +1,186 @@
+{
+  "doctors": [
+    {
+      "name": "Dr. João Silva",
+      "specialization": "Cardiologia",
+      "email": "joao.silva@clinica.com",
+      "phone": "11 91234-5678"
+    },
+    {
+      "name": "Dra. Maria Oliveira",
+      "specialization": "Pediatria",
+      "email": "maria.oliveira@clinica.com",
+      "phone": "11 92345-6789"
+    },
+    {
+      "name": "Dr. Carlos Santos",
+      "specialization": "Neurologia",
+      "email": "carlos.santos@clinica.com",
+      "phone": "11 93456-7890"
+    },
+    {
+      "name": "Dra. Ana Pereira",
+      "specialization": "Dermatologia",
+      "email": "ana.pereira@clinica.com",
+      "phone": "11 94567-8901"
+    },
+    {
+      "name": "Dr. Paulo Rodrigues",
+      "specialization": "Ortopedia",
+      "email": "paulo.rodrigues@clinica.com",
+      "phone": "11 95678-9012"
+    }
+  ],
+  "patients": [
+    {
+      "name": "Roberto Almeida",
+      "date_of_birth": "1985-03-15",
+      "gender": "Masculino",
+      "email": "roberto.almeida@email.com",
+      "phone": "11 99876-5432",
+      "address": "Rua das Flores, 123, São Paulo",
+      "insurance_info": "Plano Saúde Total - 12345678"
+    },
+    {
+      "name": "Juliana Costa",
+      "date_of_birth": "1990-07-22",
+      "gender": "Feminino",
+      "email": "juliana.costa@email.com",
+      "phone": "11 98765-4321",
+      "address": "Av. Paulista, 1000, São Paulo",
+      "insurance_info": "Plano Saúde Vida - 23456789"
+    },
+    {
+      "name": "Marcelo Ferreira",
+      "date_of_birth": "1978-11-30",
+      "gender": "Masculino",
+      "email": "marcelo.ferreira@email.com",
+      "phone": "11 97654-3210",
+      "address": "Rua Augusta, 500, São Paulo",
+      "insurance_info": "Plano Premium Saúde - 34567890"
+    },
+    {
+      "name": "Camila Souza",
+      "date_of_birth": "1995-02-10",
+      "gender": "Feminino",
+      "email": "camila.souza@email.com",
+      "phone": "11 96543-2109",
+      "address": "Rua Oscar Freire, 200, São Paulo",
+      "insurance_info": "Plano Saúde Família - 45678901"
+    },
+    {
+      "name": "Lucas Martins",
+      "date_of_birth": "1980-09-05",
+      "gender": "Masculino",
+      "email": "lucas.martins@email.com",
+      "phone": "11 95432-1098",
+      "address": "Alameda Santos, 800, São Paulo",
+      "insurance_info": "Plano Saúde Completo - 56789012"
+    }
+  ],
+  "appointments": [
+    {
+      "patient_id": 1,
+      "doctor_id": 1,
+      "appointment_date": "2023-08-15T14:30:00",
+      "reason": "Consulta de rotina",
+      "status": "completed",
+      "notes": "Paciente com pressão arterial normal"
+    },
+    {
+      "patient_id": 2,
+      "doctor_id": 2,
+      "appointment_date": "2023-08-16T10:00:00",
+      "reason": "Febre e dor de garganta",
+      "status": "completed",
+      "notes": "Paciente diagnosticado com infecção viral"
+    },
+    {
+      "patient_id": 3,
+      "doctor_id": 3,
+      "appointment_date": "2023-08-17T15:00:00",
+      "reason": "Dores de cabeça frequentes",
+      "status": "completed",
+      "notes": "Paciente encaminhado para exames"
+    },
+    {
+      "patient_id": 4,
+      "doctor_id": 4,
+      "appointment_date": "2023-08-18T09:30:00",
+      "reason": "Alergia na pele",
+      "status": "completed",
+      "notes": "Paciente recebeu prescrição de antialérgicos"
+    },
+    {
+      "patient_id": 5,
+      "doctor_id": 5,
+      "appointment_date": "2023-08-19T11:00:00",
+      "reason": "Dor no joelho",
+      "status": "completed",
+      "notes": "Paciente encaminhado para fisioterapia"
+    },
+    {
+      "patient_id": 1,
+      "doctor_id": 1,
+      "appointment_date": "2023-09-20T14:30:00",
+      "reason": "Retorno para acompanhamento",
+      "status": "scheduled",
+      "notes": "Verificar evolução do tratamento"
+    },
+    {
+      "patient_id": 2,
+      "doctor_id": 2,
+      "appointment_date": "2023-09-22T10:00:00",
+      "reason": "Consulta de rotina",
+      "status": "scheduled",
+      "notes": "Verificar desenvolvimento da criança"
+    }
+  ],
+  "medical_records": [
+    {
+      "patient_id": 1,
+      "doctor_id": 1,
+      "appointment_id": 1,
+      "diagnosis": "Hipertensão leve",
+      "treatment": "Modificação de dieta e atividade física",
+      "prescription": "Losartana 50mg, 1 comprimido ao dia",
+      "notes": "Recomendar redução de sal e caminhadas diárias"
+    },
+    {
+      "patient_id": 2,
+      "doctor_id": 2,
+      "appointment_id": 2,
+      "diagnosis": "Faringite viral",
+      "treatment": "Repouso e hidratação",
+      "prescription": "Paracetamol 500mg a cada 6 horas, se houver febre",
+      "notes": "Retorno em 7 dias se os sintomas persistirem"
+    },
+    {
+      "patient_id": 3,
+      "doctor_id": 3,
+      "appointment_id": 3,
+      "diagnosis": "Enxaqueca",
+      "treatment": "Evitar gatilhos e medicação preventiva",
+      "prescription": "Propranolol 40mg, 1 comprimido ao dia",
+      "notes": "Encaminhamento para exames de imagem"
+    },
+    {
+      "patient_id": 4,
+      "doctor_id": 4,
+      "appointment_id": 4,
+      "diagnosis": "Dermatite de contato",
+      "treatment": "Evitar alérgenos e aplicar medicação tópica",
+      "prescription": "Pomada de hidrocortisona 1%, aplicar 2 vezes ao dia",
+      "notes": "Recomendada troca de sabonete e produtos de higiene"
+    },
+    {
+      "patient_id": 5,
+      "doctor_id": 5,
+      "appointment_id": 5,
+      "diagnosis": "Tendinite patelar",
+      "treatment": "Repouso relativo e fisioterapia",
+      "prescription": "Ibuprofeno 600mg a cada 8 horas por 5 dias",
+      "notes": "Encaminhamento para 10 sessões de fisioterapia"
+    }
+  ]
+}
